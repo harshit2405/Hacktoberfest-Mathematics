@@ -1,0 +1,21 @@
+# Python MODF Function
+
+import math
+
+Tup = (10.98, 20.26, -30.05, -40.95 , 50.85) # Tuple Declaration
+Lis = [-10.98, 32.65, -39.29, -42.15 , 39.97] # List Declaration
+
+print('MODF() Function on Positive Number = ', math.modf(10))
+print('MODF() Function on Negative Decimal = ', math.modf(-15))
+
+print('MODF() Function on Positive Decimal = ', math.modf(10.9))
+print('MODF() Function on Negative Decimal = ', math.modf(-15.487))
+
+print('MODF() Function on Tuple Item = ', math.modf(Tup[2]))
+print('MODF() Function on Tuple Item = ', math.modf(Tup[4]))
+print('MODF() Function on List Item = ', math.modf(Lis[2]))
+print('MODF() Function on List Item = ', math.modf(Lis[4]))
+
+print('MODF() Function on Multiple Number = ', math.modf(10 + 20 - 40.6578))
+
+print('MODF() Function on String Value = ', math.modf('2.95')
